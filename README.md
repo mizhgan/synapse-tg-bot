@@ -1,14 +1,28 @@
 # Telegram Matrix Admin Bot
 
-A Telegram bot for managing Matrix Synapse server users with an intuitive inline keyboard interface.
+A secure Telegram bot for managing Matrix Synapse server users with an intuitive multilingual interface and advanced security features.
 
 ## Features
 
+### Core Functionality
 - 👥 **Get All Users**: View all users registered on your Matrix Synapse server
-- ❌ **Deactivate Users**: Safely deactivate user accounts with confirmation prompts
-- 📱 **Intuitive Interface**: Easy-to-use inline keyboard buttons
-- 📄 **Paginated Lists**: Navigate through large user lists efficiently
-- 🔒 **Security**: Confirmation prompts for destructive actions
+- 🔍 **Advanced User Search**: Search users by name, display name, or exact user ID
+- ❌ **Safe User Deactivation**: Deactivate user accounts with confirmation prompts
+- 👤 **Detailed User Information**: View comprehensive user details including creation time, last seen, admin status
+- 📱 **Intuitive Interface**: Easy-to-use inline keyboard buttons with emoji indicators
+- 📄 **Paginated Navigation**: Navigate through large user lists efficiently
+
+### Security Features
+- 🔐 **User Authorization**: Restrict access to specific Telegram user IDs or usernames
+- 👑 **Admin Protection**: Administrators are automatically protected from deactivation
+- 📝 **Access Logging**: All access attempts and actions are logged with timestamps
+- 🚫 **Unauthorized Access Blocking**: Immediate blocking and logging of unauthorized attempts
+- ⚠️ **Confirmation Dialogs**: Multiple confirmation steps for destructive actions
+
+### Multi-language Support
+- 🇺🇸 **English Version**: `bot-complete.js` - Full-featured English interface
+- 🇷🇺 **Russian Version**: `bot-ru.js` - Complete Russian localization
+- 🔄 **Easy Switching**: Switch between language versions via package.json scripts
 
 ## Prerequisites
 
