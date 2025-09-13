@@ -343,8 +343,6 @@ function createSearchResultKeyboard(
         callback_data: `deactivate_${user.name}`,
       };
     }
-    console.log(user);
-
     keyboard.push([
       {
         text: `${status} ${user.displayname} ${user.name}${userType}`,
