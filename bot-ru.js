@@ -880,7 +880,7 @@ bot.on(
         await bot.editMessageText(usersList, {
           chat_id: chatId,
           message_id: messageId,
-          parse_mode: "Markdown",
+          parse_mode: "HTML",
           reply_markup: {
             inline_keyboard: [
               [{ text: "🔙 В главное меню", callback_data: "back_to_menu" }],
