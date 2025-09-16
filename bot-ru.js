@@ -873,8 +873,8 @@ bot.on(
         });
 
         // Разделяем сообщение, если оно слишком длинное
-        if (usersList.length > 3000) {
-          usersList = usersList.substring(0, 2980) + "...\n\n_Список сокращен_";
+        if (usersList.length > 1000) {
+          usersList = usersList.substring(0, 980) + "...\n\n_Список сокращен_";
         }
 
         await bot.editMessageText(usersList, {
